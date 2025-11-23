@@ -1,0 +1,12 @@
+--- /include/ckTypes.h	2025-11-23 03:23:42.217155000 +0300
++++ /include/ckTypes.h.p	2025-11-23 03:28:45.808104000 +0300
+@@ -18,7 +18,8 @@
+ #include "ckProperty.h"
+ #include "ckUtils.h"
+ #include <exception>
+-
++#include <Quickdraw.h>
++#include <Events.h>
+ /**
+  * @ingroup Types
+  * @brief Return type for functions that might return an error. Also see: @ref CKPass and @ref CKErrorCode
